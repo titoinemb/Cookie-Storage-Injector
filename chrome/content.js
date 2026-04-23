@@ -1,0 +1,1 @@
+// Ce fichier est vide car nous utilisons chrome.scripting.executeScript pour injecter le code.

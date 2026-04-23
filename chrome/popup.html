@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cookie and LocalStorage Injector</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+    }
+    textarea {
+      width: 100%;
+      height: 100px;
+      margin-bottom: 10px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Inject Cookies and LocalStorage</h1>
+  <textarea id="cookiesInput" placeholder='{"cookies": [...], "origins": [...]}'></textarea>
+  <button id="injectButton">Inject</button>
+  <script src="popup.js"></script>
+</body>
+</html>
